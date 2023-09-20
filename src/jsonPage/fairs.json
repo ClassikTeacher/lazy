@@ -1,0 +1,29 @@
+{
+    "fairs_current":[
+       {
+        "id": "string",
+        "name": "string",
+        "date": "string",
+        "artists": ["string"],
+        "location": "string"
+       } 
+    ],
+    "fairs_upcoming":[
+        {
+        "id": "string",
+         "name": "string",
+         "date": "string",
+         "artists": ["string"],
+         "location": "string"
+        } 
+    ],
+     "fairs_past":[
+        {
+        "id": "string",
+         "name": "string",
+         "date": "string",
+         "artists": ["string"],
+         "location": "string"
+        } 
+     ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "string",
+    "artist": "string",
+    "education": [
+        {
+            "name": "string",
+            "date": "string" //year
+        }
+    ],
+    "solo_exhibitions": [
+        {
+            "date": "string", //year
+            "list": ["string"] //список выставок в этом году
+        }
+    ]
+}

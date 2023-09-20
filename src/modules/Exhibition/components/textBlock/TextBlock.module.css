@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
+    background: #ffffff;
+    padding: 50px 40px;
+    opacity: 0;
+    transition: all ease-in-out 0.8s;
+}
+
+._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.textBlock{
+    width: 650px;
+    height: 100%;
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 210%;
+    color: #000000;
+}
+
+@media (max-width: 960px) {
+   .container{
+    padding: 80px 30px;
+    min-height: 300px;
+   }
+    .textBlock{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .container{
+     padding: 50px 20px;
+     min-height: 300px;
+    }
+     .textblock{
+         width: 100%;
+     }
+ 
+ }

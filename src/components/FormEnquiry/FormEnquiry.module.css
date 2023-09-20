@@ -1,0 +1,86 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.inputBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+.messageMailing{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 165%;
+    color: #000000;
+}
+
+.productBlock{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.productBlock__image{
+    height: 106px;
+    width: 140px;
+    object-fit: contain;
+}
+
+.productBlockText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}   
+
+.productBlockText__normal{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.1006px;
+    line-height: 165%;
+    color: #000000;
+}
+.productBlockText__italic{
+    font-family: 'Apparat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11.1006px;
+    line-height: 165%;
+    color: #000000;
+}
+.productBlockBtn{
+    width: 100%;
+    max-width: 100%;
+}
+
+@media (max-width: 960px) {
+    .form{
+        align-items: center;
+    }
+    .inputBlock{
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .inputBlock{
+        margin-bottom: 10px;
+    }
+}

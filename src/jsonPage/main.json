@@ -1,0 +1,18 @@
+{
+    "theme": "string",
+    "type_event": "string",
+    "id": "string",
+    "main_image": {
+        "image": {
+            "desktop": "string",
+            "pad": "test",
+            "phone": "test_mobile"
+          },
+        "title": "string",
+        "date": "string"
+    },
+    "footer": {
+        "data": "string", 
+        "visible": "boolean"     
+    }
+}

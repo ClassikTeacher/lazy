@@ -1,0 +1,123 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 150px;
+    opacity: 0;
+    transition: all ease-in-out 0.8s;
+}
+
+._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+}
+.containerAbout{
+    width: 50%;
+    max-width: 645px;
+}
+
+.containerCV{
+    width: 50%;
+    max-width: 645px;
+}
+
+.containerCV__education{
+    margin-bottom: 50px;
+}
+
+.containerCV__exhibition{
+
+}
+.containerAbout__title{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    font-variant: all-small-caps;
+
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.containerAbout_text{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 210%;
+    color: #000000;
+}
+
+.containerCV__title{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    font-variant: all-small-caps;
+
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.containerCV__text{
+    display: flex;
+    align-items: center;
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 165%;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.containerCV__text__date{
+    width: 35px;
+    margin-right: 25px;
+}
+
+.containerCV__text__name{
+    width: 100%;
+}
+
+@media (max-width: 960px) {
+    .container{
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .containerAbout{
+        width: 100%;
+        max-width: 100%;
+    }
+    .containerCV{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .containerCV__education{
+        margin-bottom: 70px;
+    }
+    .linkBtn{
+        justify-content: start;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        margin-bottom: 50px;
+    }
+    .linkBtn{
+        justify-content: end;
+    }
+}

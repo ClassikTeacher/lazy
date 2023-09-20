@@ -1,0 +1,100 @@
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 11px;
+    margin-bottom: 150px;
+    padding: 0 48px;
+    opacity: 0;
+    transition: all ease-in-out 0.8s;
+}
+
+._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.title{
+     width: 644px;
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.text{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 18px;
+       width: 644px;
+}
+.description{
+       width: 644px;
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 210%;
+    color: #000000;
+}
+
+@media (max-width: 960px) {
+    .container{
+        margin-bottom: 60px;
+        align-items: start;
+        padding: 0 30px;
+        margin-bottom: 100px;
+    }
+    .title{
+        width: 100%;
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 32px;
+    }
+    .text{
+        width: 100%;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 150%;
+        margin-bottom: 18px;
+    }
+    .description{
+        width: 100%;
+        font-size: 16px;
+        line-height: 210%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .container{
+        margin-bottom: 50px;
+        align-items: start;
+        padding: 0 20px;
+    }
+    .title{
+        width: 100%;
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 32px;
+    }
+    .text{
+        width: 100%;
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 150%;
+        margin-bottom: 18px;
+    }
+    .description{
+        width: 100%;
+        font-size: 16px;
+        line-height: 210%;
+    }
+}

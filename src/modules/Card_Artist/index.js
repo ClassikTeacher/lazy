@@ -1,0 +1,5 @@
+export {default as CardArtist} from './components/CardArtist/CardArtist.js'
+export {default as ArtistAbout} from './components/AboutArtist/AboutArtist.js'
+export {default as ArtistWorksBlock} from './components/BlockCard/BlockCard.js'
+export {default as ArtistNewsBlock} from './components/NewsBlockCard/NewsBlockCard.js'
+export {default as ArtistCv} from './components/CV/cv.js'

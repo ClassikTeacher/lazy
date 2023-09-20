@@ -1,0 +1,80 @@
+{
+    "id": "string",
+    "name": "string",
+    "image": "string",
+    "about": "string",
+    "shortCV": "string",
+    "CV_id": "string",
+    "worcks": [  /* не больше 4х */
+            {
+                "id_card": "string",
+                "image": "string",
+                "artist": "string",
+                "size": "string",
+                "name": "string",
+                "date": "string"
+            },
+            {
+                "id_card": "string",
+                "image": "string",
+                "artist": "string",
+                "size": "string",
+                "name": "string",
+                "date": "string"
+            },
+            {
+                "id_card": "string",
+                "image": "string",
+                "artist": "string",
+                "size": "string",
+                "name": "string",
+                "date": "string"
+            },
+            {
+                "id_card": "string",
+                "image": "string",
+                "artist": "string",
+                "size": "string",
+                "name": "string",
+                "date": "string"
+            }
+        ],
+    "last-news": [
+        {
+            "id_news": "string",
+            "title": "string",
+            "description": "string",
+            "image": "string",
+            "artist": "string",
+            "type": "string",
+            "date": "string"
+        }, 
+        {
+            "id_news": "string",
+            "title": "string",
+            "description": "string",
+            "image": "string",
+            "artist": "string",
+            "type": "string",
+            "date": "string"
+        },
+        {
+            "id_news": "string",
+            "title": "string",
+            "description": "string",
+            "image": "string",
+            "artist": "string",
+            "type": "string",
+            "date": "string"
+        },
+        {
+            "id_news": "string",
+            "title": "string",
+            "description": "string",
+            "image": "string",
+            "artist": "string",
+            "type": "string",
+            "date": "string"
+        }
+    ]    /* не больше 4х */
+}

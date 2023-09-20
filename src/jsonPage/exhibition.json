@@ -1,0 +1,50 @@
+{
+    "id": "string",
+    "exhibition_title": {
+        "title": "string",
+        "text": "string",
+        "description": "string"
+    },
+    "exhibition_cards": {
+        "card_1": {
+            "id_card": "string",
+            "image": "string",
+            "artist": "string",
+            "size": "string",
+            "name": "string",
+            "date": "string"
+        },
+        "card_2":{
+            "id_card": "string",
+            "image": "string",
+            "artist": "string",
+            "size": "string",
+            "name": "string",
+            "date": "string"
+        },
+        "card_3": {
+            "id_card": "string",
+            "image": "string",
+            "artist": "string",
+            "size": "string",
+            "name": "string",
+            "date": "string"
+        },
+        "card_4":{
+            "id_card": "string",
+            "image": "string",
+            "artist": "string",
+            "size": "string",
+            "name": "string",
+            "date": "string"
+        }
+    },
+    "exhibition_galerey_image": {
+        "image_1": "string",
+        "image_2": "string"
+    },
+    "exhibition_text":{
+        "text_1" : "string || undefiend",
+        "text_2": "string"
+    }  
+}

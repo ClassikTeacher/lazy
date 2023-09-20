@@ -1,0 +1,30 @@
+.cursor {
+    position: fixed;
+    z-index: 9999;
+    pointer-events: none;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    box-shadow: 12px 20px 17px 16px #1EF868;
+    mix-blend-mode: multiply;
+    /* mix-blend-mode: difference; */
+}
+
+    @media (hover: hover) {
+        .cursor{
+            /* display: none; */
+            /* box-shadow: 12px 20px 20px 15px #f8801e; */
+        }   
+    }
+
+@media (max-width: 960px) {
+    .cursor{
+        display: none;
+        visibility: hidden;
+    }
+}

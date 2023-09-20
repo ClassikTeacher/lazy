@@ -1,0 +1,101 @@
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23%;
+    /* max-width: 299px; */
+    height: 400px;
+    opacity: 0;
+    transition: all ease-in-out 0.8s;
+}
+
+._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;  
+    border: 5px solid rgba(255, 255, 255, 0);
+
+    /* height: 400px; */
+}
+.card:hover{
+    border: 5px solid #1EF868;
+
+}
+.nameArtist{
+    width: 100%;
+    position: absolute;
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    padding: 20px;
+    z-index: 5;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.image{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px; 
+    height: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width:960px) {
+    .container{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 49%;
+        max-width: 420px;
+        height: 460px;
+    }
+    .card{
+        height: 100%;
+    }
+    .image{
+        min-height: 460px;
+        height: 100%;
+        max-height: 460px;
+
+}
+}
+
+@media (max-width:480px) {
+    .container{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 440px;
+        height: 460px;
+    }
+    .card{
+        height: 100%;
+    }
+    .image{
+        min-height: 460px;
+        height: 100%;
+        max-height: 460px;
+        margin-bottom: 0;
+    }
+
+}

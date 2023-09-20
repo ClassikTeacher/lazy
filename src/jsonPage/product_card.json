@@ -1,0 +1,46 @@
+{
+    "id": "string",
+    "artist": "string",
+    "id_artist": "string",
+    "name": "string", //название картины
+    "date": "string", //год
+    "size": "string",
+    "type": "string",
+    "isBuy": "boolead",
+    "about_artist": "string",
+    "worcks": [  /* не больше 4х */
+    {
+        "id_card": "string",
+        "image": "string",
+        "artist": "string",
+        "size": "string",
+        "name": "string",
+        "date": "string"
+    },
+    {
+        "id_card": "string",
+        "image": "string",
+        "artist": "string",
+        "size": "string",
+        "name": "string",
+        "date": "string"
+    },
+    {
+        "id_card": "string",
+        "image": "string",
+        "artist": "string",
+        "size": "string",
+        "name": "string",
+        "date": "string"
+    },
+    {
+        "id_card": "string",
+        "image": "string",
+        "artist": "string",
+        "size": "string",
+        "name": "string",
+        "date": "string"
+    }
+]
+
+}

@@ -1,0 +1,22 @@
+{
+    "list_card": [
+        {
+            "id": "string",
+            "image": "string",
+            "artist": "string",
+            "size": "string",
+            "name": "string",
+            "type": "string",
+            "date": "string"
+        }
+    ],
+    "list_artist": [
+        {
+            "id": "string",
+            "name": "string"
+        }
+    ],
+    "list_types": [
+        "string"
+    ]
+}

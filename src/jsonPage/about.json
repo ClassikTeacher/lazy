@@ -1,0 +1,20 @@
+{
+    "title": "string",
+    "description": "string",
+    "benefits_block": {
+        "image": "string",
+        "text": "string",
+        "citation": "string"
+    },
+    "founders": "string",
+    "artists": "string",
+    "philanthropy": "string",
+    "education": "string",
+    "team": [
+        {
+            "image": "string",
+            "position": "string",
+            "name": "string"
+        }
+    ]
+}

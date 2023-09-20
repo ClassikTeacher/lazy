@@ -1,0 +1,12 @@
+{
+    "id": "string",
+    "title": "string",
+    "description": "string", // описание новости
+    "link": "string | undefined",
+    "list_photo": [
+        {
+            "image": "string",
+            "description": "string" //описание фото
+        }
+    ]
+}

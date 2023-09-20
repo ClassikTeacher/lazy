@@ -1,0 +1,37 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.inputBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 960px) {
+    .form{
+        align-items: center;
+    }
+    .inputBlock{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .inputBlock{
+        margin-bottom: 40px;
+    }
+}

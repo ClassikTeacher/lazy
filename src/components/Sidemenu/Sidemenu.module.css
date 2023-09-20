@@ -1,0 +1,123 @@
+.wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    padding-left: 20px;
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+    z-index: 150;
+    overflow-y: hidden;
+    color: aliceblue;
+    padding-bottom: 50px;
+}
+
+.visible{
+    visibility: visible;
+  
+}
+.headerSidemenu{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.headerLogo{
+    margin: 42px 20px 0 20px;
+    width: 85px;
+    height: 85px;
+}
+
+.headerLogo img{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 0;
+}
+.burgetMenu{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 32px;
+    height: 23px;
+}
+.closeBtn{
+    position: relative;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-image: url('../../images/Close_white.svg')
+
+}
+
+
+@media (min-width: 961px) {
+    .wrapper{
+        display: none;
+    }
+}
+@media (max-width: 960px) {
+    .wrapper{
+        align-items: center;
+      }
+    .navMenu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 240px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper{
+      align-items: start;
+    }
+    .navMenu{
+        align-items: start;
+        margin-top: 50%;
+    }
+}
+
+.menuItemWhite{
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    /* identical to box height */
+    text-decoration: none;
+    outline: none;
+    /* cursor: pointer; */
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    color: #FFFFFF;
+}
+.menuItemGreen{
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    /* identical to box height */
+    text-decoration: none;
+    outline: none;
+    /* cursor: pointer; */
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    color: #1EF868;
+}
+
+.active_green{
+    color: #1EF868;
+}
+.active_white{
+    color: #FFFFFF;
+}

@@ -1,0 +1,62 @@
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    opacity: 0;
+    transition: all ease-in-out 0.8s;
+}
+
+._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.nameArtist{
+    margin-right: 30px;
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+.image{
+    position: relative;
+    height: 600px;
+    width: 80%;
+    /* max-width: 989px; */
+    object-fit: cover;
+}
+
+@media (max-width: 960px) {
+    .container{
+        flex-direction: column-reverse;
+        margin-bottom: 70px;
+    }
+
+    .image{
+        margin-bottom: 100px;
+        width: 100%;
+        height: 550px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .image{
+        margin-bottom: 70px;
+        height: 256px;
+        width: 100vw;
+    }
+}

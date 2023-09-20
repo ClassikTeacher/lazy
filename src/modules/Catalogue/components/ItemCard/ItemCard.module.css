@@ -1,0 +1,106 @@
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    min-height: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: all ease-in-out 0.8s;
+}
+
+._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.container a {
+    display: flex;
+    flex-direction: column;
+    /* align-items: end; */
+    justify-content: end;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: end;
+    width: 100%;
+  
+}
+.img__wrapper{
+    /* height: 412px; */
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 30px;
+    text-align: end;
+}
+.cardWrapper{
+    display: block;
+    /* min-height: 120px; */
+    height: 145px;
+    
+}
+
+.card__imge{
+    height: 100%;
+    width: 100%;
+    max-height: 412px;
+    object-fit: contain;
+    text-align: end;
+    /* margin-top: 50px; */
+    /* margin-bottom: 30px; */
+
+}
+.card__artist{
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-bottom: 5px;
+}
+.card__name{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 165%;
+    color: #000000;
+    margin-bottom: 5px;
+
+}
+
+.card__size{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 165%;
+    color: #606060;
+    margin-bottom: 14px;
+}
+
+@media (max-width: 960px) {
+    .container{
+        gap: 28px;
+        max-width: 425px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        gap: 60px;
+        /* flex-direction: column; */
+
+    }
+
+    .card__artist{
+        font-size: 25px;
+        line-height: 120%;
+    }
+   
+}

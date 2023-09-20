@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    max-width: 645px;
+    height: 100%;
+    margin-right: 50px;
+}
+
+.title{
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.subTitle{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.description{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 210%;
+    color: #000000;
+    margin-bottom: 30px;
+}

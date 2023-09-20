@@ -1,0 +1,222 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    height: 450px;
+    background: #EBEBEB;
+    cursor:  url(../../images/Cursor.png), auto;
+}
+
+.hidden{
+    display: none;
+}
+select{
+    cursor:  url(../../images/Cursor.png), auto;
+}
+
+.title{
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.inputBlock{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 684px;
+    height: 65px;
+    border-bottom: 1px solid #000000;
+}
+.inputBlock::before{
+    content: '';
+
+}
+
+.inputBlock__label{
+    position: absolute;
+    font-family: 'Apparat';
+    font-style: normal;
+    bottom: 5px;
+    opacity: 0;
+    font-weight: 400;
+    font-size: 14px;
+    z-index: 5;
+    line-height: 165%;
+    color: #000000;
+    transition: all ease-in-out 0.3s;
+}
+
+.inputBlock__label.visible{
+    z-index: 6;
+    opacity: 1;
+    transform: translateY(-20px);
+    transition: all ease-in-out 0.3s;
+}
+
+.inputBlock__input{
+    width: 85%;
+    height: 34px;
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    padding: 0px 4px;
+    color: #070707;
+    background: inherit;
+    z-index: 5;
+    border: none;
+    outline: none; 
+    /* cursor: auto; */
+}
+.inputBlock__btnClean{
+    position: absolute;
+    /* display: none; */
+    border: none;
+    background: inherit;
+    z-index: -1;
+    right: 54px;
+    bottom: 0px;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+}
+.visible{
+    z-index: 6;
+    opacity: 1;
+    display: block;
+    transition: all ease-in-out 0.3s;
+}
+
+.inputBlock__btnSubmit{
+    position: absolute;
+    border: none;
+    background: inherit;
+    z-index: 6;
+    right: 4px;
+    bottom: 0px;
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+    /* cursor: pointer; */
+    transition: all ease-in-out 0.3s;
+}
+.inputBlock__btnSubmit__ckeck{
+    position: absolute;
+    border: none;
+    background: inherit;
+    z-index: 5;
+    right: 4px;
+    bottom: 0px;
+    height: 40px;
+    width: 40px;
+    /* cursor: pointer; */
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+}
+.inputBlock__btnSubmit._submited{
+    opacity: 0;
+    z-index: 5;
+    /* transition: all ease-in-out 0.3s; */
+}
+.inputBlock__btnSubmit__ckeck._submited{
+    opacity: 1;
+    z-index: 6;
+    /* transition: all ease-in-out 0.3s; */
+}
+.inputBlock__error{
+    position: absolute;
+    bottom: -30px;
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 165%;
+    color: #FF0000;
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+.inputBlock__btnSubmit img,
+.inputBlock__btnSubmit__ckeck img{
+    margin: 0;
+}
+
+@media (max-width: 960px) {
+    .wrapper{
+        height: 450px;
+    }
+    .title{
+        font-family: 'Bebas Neue Cyrillic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 35px;
+        text-align: center;
+        max-width: 529px;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #000000;
+    }
+    .inputBlock{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper{
+        height: 390px;
+    }
+    .title{
+        font-family: 'Bebas Neue Cyrillic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 120%;
+        /* or 30px */
+        max-width: 529px;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: #000000;
+    }
+
+    .inputBlock{
+        width: 100%;
+    }
+    .inputBlock__btnClean img{
+        margin-bottom: 0;
+    }
+    .inputBlock__btnClean{
+        position: absolute;
+        display: none;
+        border: none;
+        background: inherit;
+        /* padding-top: 8px; */
+        z-index: 6;
+        right: 47px;
+        bottom: 0px;
+        height: 40px;
+        width: 40px;
+        outline: none;
+       
+    }
+    .visible{
+        display: block;
+    }
+}

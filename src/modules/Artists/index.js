@@ -1,0 +1,1 @@
+export {default as ArtistBlock} from './components/ArtistsBlock/ArtistsBlock.js'

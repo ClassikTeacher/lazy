@@ -1,0 +1,140 @@
+.wrapper{
+    width: 100%;
+    z-index: 100;
+    height: 140px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+}
+.container{
+    
+}
+/* .wrapper.fixed{
+    position: fixed;
+} */
+
+.headerLogo{
+    width: 116px;
+    height: 116px;
+    margin: 13px 45px 27px 65px;
+}
+.headerLogo img{
+    width: 116px;
+    height: 116px;
+}
+
+
+.headerNavigation{
+    display: flex;
+    position: absolute;
+    right: 4px;
+    margin-top: 34px;
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 165%;
+    font-variant: all-small-caps;
+}
+
+.headerItem{
+    display: flex;
+    align-items: end;
+    height: 49px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 25px;
+    text-decoration: none;
+    outline: none;
+    /* cursor: pointer; */
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 165%;
+    font-variant: all-small-caps;
+    color: #000000;
+}
+.headerItem:hover{
+    color: #1EF868;
+}
+.closeBtn{
+    position: relative;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-image: url('../../images/Close_white.svg')
+
+}
+.headerItem.white{
+    color: #FFFFFF;
+}
+.headerItem.white:hover{
+    color: #1EF868;
+}
+
+.headerItem.green{
+    color: #1EF868;
+}
+.headerItem.green:hover{
+    color: #000000;
+}
+
+.burgetMenu{
+    position: absolute;
+    display: none;
+    top: 75px;
+    right: 20px;
+    width: 32px;
+    height: 23px;
+    /* cursor: pointer; */
+}
+.closeBtn{
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    color: #FFFFFF;
+}
+.closeBtn.white{
+    color: #FFFFFF;
+}
+.closeBtn.green{
+    color: #1EF868; 
+}
+
+@media (max-width: 960px) {
+    .wrapper{
+        height: 140px;
+    }
+    .burgetMenu{
+        display: block;
+    }
+
+    .headerNavigation{
+        display: none;
+    }
+    .headerLogo{
+        margin: 45px 20px 0 20px;
+        width: 85px;
+        height: 85px;
+    }
+
+    .headerLogo img{
+        width: 85px;
+        height: 85px;
+    }
+}
+
+.active__green{
+    color: #1EF868;
+}
+.active__white{
+    color: #fff;
+}

@@ -1,0 +1,6 @@
+export {default as CatalogSidemenu} from './components/Sidemenu/Sidemenu.js'
+export {default as CatalogBlockItems} from './components/CatalogueBlockItems/CatalogueBlockItems.js'
+export {default as CatalogSPagination} from './components/Pagination/Pagination.js'
+export {default as CatalogSelectormenu} from './components/SelectorMenu/SelectorMenu.js'
+export {default as CatalogFilterPopup} from './components/PopupFilter/PopupFilter.js'
+export {default as CatalogSidemenuItem} from './components/ItemSidemenu/ItemSidemenu.js'

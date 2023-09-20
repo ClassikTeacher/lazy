@@ -1,0 +1,5 @@
+export {default as TitleAbout} from './components/Title/Title.js'
+export {default as BenefitsAbout} from './components/Benefits/Benefits.js'
+export {default as TextAbout} from './components/TextBlock/TextBlock.js'
+export {default as TeamBlockAbout} from './components/TeamBlock/TeamBlock.js'
+export {default as TeamCardAbout} from './components/TeamCard/TeamCard.js'

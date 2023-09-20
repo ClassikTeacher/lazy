@@ -1,0 +1,46 @@
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    max-width: 297px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background: #000000;
+    font-family: 'Apparat';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 165%;
+    text-transform: uppercase;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+}
+
+.white{
+    border: 1px solid #000000;
+    background-color: inherit;
+    color: #000000;
+}
+
+.check{
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+}
+
+@media (max-width: 960px) {
+    .btn{
+        width: 100%;
+        max-width: 335px;  
+    }
+
+}
+@media (max-width: 480px) {
+    .btn{
+        width: 100%;
+        max-width: 100%;  
+    }
+
+}

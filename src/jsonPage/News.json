@@ -1,0 +1,13 @@
+{
+    "list_news": [
+        {
+            "id": "string",
+            "title": "string",
+            "description": "string",
+            "image": "string",
+            "artist": "string",
+            "type": "string",
+            "date": "string"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "id": "string",
+    "title": "string",
+    "text": "string",
+    "link": "string || undefiend",
+    "images": [
+        {
+            "image": "string",
+            "description": "string"
+        }
+    ]
+}

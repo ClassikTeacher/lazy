@@ -1,0 +1,12 @@
+.iconBlock{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.center{
+    justify-content: center; 
+}
+
+.iconBlock__item{
+    margin-right: 32px;
+}

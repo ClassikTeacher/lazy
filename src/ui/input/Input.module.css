@@ -1,0 +1,61 @@
+.containerInput{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #000000;
+}
+
+.containerInput__label{
+    position: absolute;
+    font-family: 'Apparat';
+    font-style: normal;
+    bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 5;
+    opacity: 0;
+    line-height: 165%;
+    color: #000000;
+    transition: all ease-in-out 0.3s;
+}
+.containerInput__label.visible{
+    z-index: 6;
+    opacity: 1;
+    transform: translateY(-30px);
+    transition: all ease-in-out 0.3s;
+}
+
+.containerInput__input{
+    width: 100%;
+    height: 34px;
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    padding: 0px 4px;
+    color: #070707;
+    background: inherit;
+    z-index: 5;
+    border: none;
+    outline: none; 
+    /* cursor: auto; */
+}
+
+.containerInput__error{
+    position: absolute;
+    bottom: -30px;
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 165%;
+    color: #FF0000;
+    visibility: hidden;
+}
+.containerInput__error.visible{
+    visibility: visible;
+}

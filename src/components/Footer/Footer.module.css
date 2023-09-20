@@ -1,0 +1,258 @@
+.wrapper{
+    position: relative;
+    display: flex;
+
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    height: 420px;
+    margin: auto;
+    justify-content: center;
+    background-color: #070707;
+    padding: 59px 46px;
+    color: #ffffff;
+}
+
+.hidden{
+    display: none;
+}
+.wrapperDesktop{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.wrapperMobile{
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.containerDesktop{
+    display: flex;
+    
+}
+.containerBlocks{
+    display: flex;
+}
+.nameBlock{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 365px;
+    margin-right: 136px;
+}
+
+.nameBlock__name{
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 94px;
+    line-height: 94px;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+    width: 100%;
+}
+
+.nameBlock__politic{
+    position: relative;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 165%;
+    color: #FFFFFF;
+}
+.nameBlock__politic span{
+    margin-bottom: 7px;
+}
+.nameBlock__politic a{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 165%;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+    text-decoration: none;
+    outline: none;
+}
+
+.socialBlock{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-right: 233px;
+    min-width: 116px;
+}
+
+.socialBlock__title{
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.contactBlock{
+    display: flex;
+    flex-direction: column;
+    min-width: 141px;
+   
+}
+.contactBlock__title{
+    font-family: 'Bebas Neue Cyrillic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+.contactBlock_contact{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 210%;
+ 
+    color: #FFFFFF;
+}
+.contactBlock_contact a{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Apparat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 210%;
+ 
+    color: #FFFFFF;
+    text-decoration: none;
+    outline: none;
+}
+@media (max-width: 1060px){
+    .nameBlock{
+        justify-content: space-between;
+        margin-right: 80px ;
+    }
+    .containerBlocks{
+        justify-content: space-between;
+    }
+    .socialBlock{
+        margin-right: 180px;
+    }
+    .containerBlocks{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 960px){
+    .wrapper{
+        height: 640px;
+        padding: 60px 35px 22px 35px;
+    }
+    .containerDesktop{
+        flex-direction: column;
+    }
+    .containerBlocks{
+        flex-direction: column-reverse;
+    }
+    .nameBlock__name{
+        margin-bottom: 62px;
+    }
+    .nameBlock__politic{
+        position: absolute;
+        bottom: 0;
+    }
+    .socialBlock{
+        margin-top: 60px;
+        align-items: start;
+    }
+
+    .nameBlock__politic{
+        flex-direction: row-reverse;
+    }
+    .nameBlock__politic span{
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding: 24px 40px 6px 40px;
+        height: 490px;
+    }
+    .wrapperDesktop{
+        display: none;
+    }
+    .wrapperMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nameBlock{
+        align-items: center;
+        margin: auto;
+        min-width: 300px;
+    }
+    .nameBlock__name{
+
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 90px;
+        margin-bottom: 17px;
+    }
+    .socialBlock{
+        align-items: center;
+        margin: auto; 
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 24px;
+
+    }
+    .socialBlock__icons{
+        position: relative;
+        left: 15px;
+    }
+    .contactBlock{
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+    .nameBlock__politic{
+        position: static;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        /* margin: auto; */
+        padding-bottom: 34px;
+       
+    }
+    .nameBlock__politic a{
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .nameBlock__politic span{
+        text-align: center;
+        margin-bottom: 0px;
+    }
+}

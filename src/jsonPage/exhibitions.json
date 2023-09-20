@@ -1,0 +1,18 @@
+{
+    "exhibition_present":{
+        "id": "string",
+        "image": "string",
+        "title": "string",
+        "description": "string",
+        "date": "string"
+    },
+    "exhibition_past": [
+        {   
+            "id": "string",
+            "image": "string",
+            "title": "string",
+            "description": "string",
+            "date": "string"
+        }
+    ]
+}
